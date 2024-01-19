@@ -1,0 +1,79 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+
+}
+h2{
+    font-size: 40px;
+}
+
+.white{
+    color:white;
+}
+
+.flexiblecontainer{
+    display: flex;
+    padding: 5%;
+    
+}
+.halfwidth{
+    width: 50%;
+}
+img{
+    width: 80%;
+    border-radius: 50%;
+}
+.topbanner{
+    background-image: url(wave.svg);
+    background-repeat: no-repeat;
+
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(blue, blueviolet);
+    color: white;
+    font-weight: 700;
+    margin-top: 100%;
+    transition: background-image 0.3s ease-in-out;
+}
+.specializing-head{
+    text-align: center;
+    padding: 0 20%;
+
+}
+.parant{
+    display: flex;
+    padding: 0 10%;
+
+}
+.child{
+    margin: 2%;
+    box-shadow: 8px 5px 30px rgba(0, 0, 0, 0.458);
+    padding: 50px;
+    border-radius: 0 20px 50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan) 0 100%;
+    /*transition: box-shadow 0.3s ease-in-out;*/
+}
+
+footer{
+    text-align: center;
+}
+/*
+.child:hover {
+    box-shadow: 8px 5px 30px rgba(0, 0, 0, 0.458);
+    cursor: pointer;
+}
+*/
+
+.link:hover {
+    background-image: linear-gradient(cyan, rgb(29, 197, 227)); /* Change the colors as needed */
+    cursor: pointer;
+}
